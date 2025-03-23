@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Header from './components/Header'
 import Notification from './components/Notification'
 import HeroSection from './components/HeroSection'
+import Slider from './components/Slider'
+import HeroSection2 from './components/HeroSection2'
 // import './App.css'
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
       <Header />
       <Notification />
       <HeroSection />
-      hello
+      <Slider />
+
+      <HeroSection2 />
     </>
   )
 }
