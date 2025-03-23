@@ -1,4 +1,4 @@
-import slackLogo from '../assets/slack12.png'
+import slack12 from '../assets/slack12.png'
 
 export default function HeroSection2() {
     return (
@@ -6,7 +6,7 @@ export default function HeroSection2() {
             <section className='container my-4'>
                 <div className="d-flex gap-3 flex-lg-nowarap">
                     <div className='w-100' style={{maxHeight: "15rem"}}>
-                        <img src={slackLogo} alt="img"
+                        <img src={slack12} alt="img"
                             className='img-fuild w-100 h-100 rounded object-fit-cover'
                         />
                     </div>
